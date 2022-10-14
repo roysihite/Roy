@@ -1,0 +1,144 @@
+* {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-top: 50px;
+  height: 20px;
+  background-color: white;
+}
+
+.navbar ul {
+  float: right;
+  list-style: none;
+}
+
+.navbar ul li {
+  text-align: center;
+  float: left;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 20px;
+  background-color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.card1 input[type='text'] {
+  background-color: white;
+  color: white;
+  width: 100%;
+}
+.card1 input[type='submit'] {
+  background-color: green;
+  color: white;
+  width: 101%;
+  text-align: center;
+}
+
+.card1 input,
+label {
+  background-color: white;
+}
+#content1 {
+  float: left;
+  width: 96%;
+}
+
+.card .ketik1 {
+  text-align: justify;
+  background-color: white;
+  float: left;
+}
+img {
+  float: left;
+}
+
+.ketik2 input[type='text'] {
+  background-color: blue;
+  padding: 0.3em;
+  color: white;
+  text-align: center;
+  width: 30%;
+}
+
+.ketik1 input[type='text'] {
+  background-color: white;
+  border: none;
+}
+
+form {
+  background-color: white;
+  color: black;
+}
+
+.ketik2 input[type='submit'] {
+  background-color: white;
+  padding: 0.3em;
+  color: green;
+  text-align: center;
+}
+
+.card .ketik2 {
+  left: 140px;
+  background-color: white;
+  position: absolute;
+  bottom: 70%;
+}
+
+.card .ketik3 {
+  background-color: white;
+  right: 50%;
+  border-collapse: collapse;
+  border: none;
+}
+
+.card .ketik3 td {
+  background-color: white;
+  right: 20%;
+  border-style: hidden;
+  border: none;
+}
+
+table {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+b {
+  background-color: white;
+}
+
+button {
+  width: 100%;
+  color: white;
+  background-color: green;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+text {
+  color: black;
+}

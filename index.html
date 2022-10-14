@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PRODUCT</a></li>
+        <li><a href="#">GALLERY</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">MY INVENTORY</a></li>
+      </ul>
+    </div>
+    <section>
+      <div id="content" class="card">
+        <img src="image/gambar1.jpg" width="120px" />
+        <div class="ketik1">
+          <h2 id="label_nama">Roy Anlie Jonathan Sihite</h2>
+          <p id="label_role">Front End Designer</p>
+        </div>
+        <div class="ketik2">
+          <input type="text" value="Kontak" />
+          <input type="submit" value="Resume" />
+        </div>
+        <div class="ketik3">
+          <table>
+            <tr>
+              <td><b>Availability</b></td>
+              <td>:</td>
+              <td id="label_time">full time</td>
+            </tr>
+            <tr>
+              <td><b>Usia</b></td>
+              <td>:</td>
+              <td id="label_usia">17</td>
+            </tr>
+            <tr>
+              <td><b>Lokasi</b></td>
+              <td>:</td>
+              <td id="label_lokasi">Jakarta,Indonesia</td>
+            </tr>
+            <tr>
+              <td><b>Pengalaman</b></td>
+              <td>:</td>
+              <td id="label_pengalaman">2</td>
+            </tr>
+            <tr>
+              <td><b>Email</b></td>
+              <td>:</td>
+              <td id="label_email">Designer@gmail.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="content1" class="card1">
+        <form>
+          <label for="name">Nama</label><br />
+          <input type="text" style="color: black" name="nama" id="nama" /><br />
+          <label for="role">Role</label><br />
+          <input type="text" style="color: black" name="role" id="role" /><br />
+          <label for="avai">Availability</label><br />
+          <input type="text" name="avai" style="color: black" id="avai" /><br />
+          <label for="age">Age</label><br />
+          <input type="text" name="usia" style="color: black" id="usia" /><br />
+          <label for="lokasi">Lokasi</label><br />
+          <input type="text" name="lokasi" style="color: black" id="lokasi" /><br />
+          <label for="year">Years Experience</label><br />
+          <input type="text" name="year" style="color: black" id="year" /><br />
+          <label for="emil">Email</label><br />
+          <input type="text" name="email" style="color: black" id="email" /><br />
+          <button id="btn-simpan">Simpan</button>
+        </form>
+      </div>
+    </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $('#btn-simpan').click((e) => {
+        e.preventDefault();
+        let nama = $('#nama').val();
+        let role = $('#role').val();
+        let avai = $('#avai').val();
+        let usia = $('#usia').val();
+        let lokasi = $('#lokasi').val();
+        let year = $('#year').val();
+        let email = $('#email').val();
+
+        $('#label_nama').text(nama);
+        $('#label_role').text(role);
+        $('#label_time').text(avai);
+        $('#label_usia').text(usia);
+        $('#label_lokasi').text(lokasi);
+        $('#label_pengalaman').text(year);
+        $('#label_email').text(email);
+      });
+    </script>
+  </body>
+</html>
